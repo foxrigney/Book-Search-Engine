@@ -43,7 +43,7 @@ const SignupForm = () => {
       console.error(e);
       setShowAlert(true);
     }
-  };
+
 
 
   setUserFormData({
