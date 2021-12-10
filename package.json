@@ -1,0 +1,22 @@
+{
+  "name": "Book-Search-Engine",
+  "version": "1.0.0",
+  "description": "## Overview",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foxrigney/Book-Search-Engine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/foxrigney/Book-Search-Engine/issues"
+  },
+  "homepage": "https://github.com/foxrigney/Book-Search-Engine#readme"
+}
