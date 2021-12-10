@@ -31,7 +31,7 @@ const LoginForm = () => {
     
       try {
         const { data } = await login({
-          variables: { ...formState },
+          variables: { ...userFormData },
         });
 
         Auth.login(data.login.token);
@@ -41,7 +41,7 @@ const LoginForm = () => {
       }
 
       // clear form values
-      setFormState({
+      setUserFormData({
         email: '',
         password: '',
       });

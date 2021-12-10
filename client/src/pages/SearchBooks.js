@@ -68,6 +68,7 @@ const SearchBooks = () => {
     }
 
     try {
+      console.log(bookToSave.link);
       const { data } = await saveBook({
         variables: {
           authors: bookToSave.authors,
@@ -75,7 +76,7 @@ const SearchBooks = () => {
           title: bookToSave.title,
           description: bookToSave.description,
           image: bookToSave.image,
-          link: bookToSave.link,
+         
         }
       });
       setSavedBookIds([...savedBookIds, bookToSave.bookId]);
